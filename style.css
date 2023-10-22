@@ -2,7 +2,7 @@
 it's also going to change the font to sans-serif*/
 body {
     background-color: white;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /*this is going to change where the search button is goingto be, I want it to be at the top right */
 header h2 {
@@ -32,4 +32,14 @@ footer {
     border: 5px solid black;
     color: black;
     font-size: 25px;
+}
+/*underline the "Women's Shoes"*/
+.side {
+    text-decoration: underline;
+}
+/*trying the box model to see if i can rearrange the pictures in the womens webpage */
+.pictures {
+    padding: 20px;
+    padding-bottom: 20px;
+    margin: 10px;
 }
