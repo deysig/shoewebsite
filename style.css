@@ -1,6 +1,6 @@
 /*the code below is for all pages for website it's going to change the background color to whitesmoke 
 it's also going to change the font to sans-serif*/
-body {
+body h2 {
     background-color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
