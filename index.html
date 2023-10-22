@@ -1,16 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-15Q459WDV2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-15Q459WDV2');
-</script>
         <title>Shoe Outlet</title>
+        <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <meta name="description" content="Explore our curated collection of footwear that blends 
                                           trendsetting designs with unparalleled comfort. From classic 
@@ -20,18 +12,26 @@
                                          sneakers, boots, heels">
         <meta name="author" content="Deysi Garcia-Valdez">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-15Q459WDV2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-15Q459WDV2');
+</script>
 
     </head>
     <body>
         <header>
-            <img src="images/logo.png" alt="logo of the website" width="400" height="400">
+            <h2>Search <img src="images/logo2.png" alt="logo of the website" width="400" height="400"></h2>
             <nav>
                 <ul>
-                    <li><a href="index.html">Homepage</a></li>
-                    <li><a href="womenshoepage.html">Women's</a></li>
-                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li id="one"><a href="index.html">Homepage</a></li>
+                    <li id="two"><a href="womenshoepage.html">Women's</a></li>
+                    <li id="three"><a href="contactus.html">Contact Us</a></li>
                 </ul>
-                <h2>Search</h2>
             </nav>
 
         </header>
@@ -44,17 +44,17 @@
             </div>
 
             <div>
-                <h2>Shop by Category</h2>
+                <h2 class="category">Shop by Category</h2>
                 <ul>
-                    <li>Running Shoes</li><img src="images/runningshoespic.png" alt="running shoes">
-                    <li>Boots</li><img src="images/bootspic.png" alt="boots">
-                    <li>Sneakers</li><img src="images/sneakerspic.png" alt="sneakers">
-                    <li>Sandals</li><img src="images/sandalspic.png" alt="sandals">
+                    <li id="running">Running Shoes</li><img src="images/runningshoespic.png" alt="running shoes">
+                    <li id="boots">Boots</li><img src="images/bootspic.png" alt="boots">
+                    <li id="sneakers">Sneakers</li><img src="images/sneakerspic.png" alt="sneakers">
+                    <li id="sandals">Sandals</li><img src="images/sandalspic.png" alt="sandals">
                 </ul>
             </div>
 
         </main>
-        <footer>
+        <footer class="footer">
             Deysi Garcia-Valdez &copy;
         </footer>
     </body>

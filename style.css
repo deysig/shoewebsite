@@ -1,5 +1,35 @@
-/*the code below is for all pages for website
-it's going to change the background color to whitesmoke */
+/*the code below is for all pages for website it's going to change the background color to whitesmoke 
+it's also going to change the font to sans-serif*/
 body {
-    background-color: whitesmoke;
+    background-color: white;
+    font-family: sans-serif;
+}
+/*this is going to change where the search button is goingto be, I want it to be at the top right */
+header h2 {
+    text-align: right;
+    padding: 15px;
+}
+/*this is going to resize the width and height of the logo since I changed it and when I inserted it
+it was a litle too big.*/
+header img {
+    width: 300px;
+    height: 300px;
+    text-align: left;
+    margin: auto 5px;
+}
+/*this is going to change the font size of the "Contact Us" text*/
+.contact {
+    font-size: 40px;
+}
+/*code below will underline the content in the 'help' class */
+.help {
+    text-decoration: underline;
+}
+/*this is going to put a border around the content in the footer section
+and it's going to help me know that it's separated */
+footer {
+    padding: 15px;
+    border: 5px solid black;
+    color: black;
+    font-size: 25px;
 }
