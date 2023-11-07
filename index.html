@@ -40,6 +40,26 @@
     nav ul li {
         color: red;
     }
+    .category {
+        background-color: rgb(49, 18, 18);
+        padding: 50px;
+        color: white;
+        text-align: center;
+    }
+    p {
+        padding: 30px;
+    }
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
 
 </style>
 
@@ -64,10 +84,19 @@
             <div class="blink">
                 <h2 style="background-image: url('https://cdn.thewirecutter.com/wp-content/media/2021/02/whitesneakers-2048px-0424-2x1-1.jpg?auto=webp&quality=75&crop=2:1&width=480&dpr=2');">BOGO 50% ALL SHOES</h2>
             </div>
-            <div>
-                <img src="images/graphics2.png" alt="sale"><br>
-                <img src="images/graphics3.png" alt="Hot sellers"><br>
-                <img src="images/graphics4.png" alt="Up to forty percent off">
+            <div class="row">
+                <div class="column">
+                    <img src="images/graphics2.png" alt="sale"><br>
+                </div>
+                <div class="column">
+                    <img src="images/graphics3.png" alt="Hot sellers"><br>
+                </div>
+                <div class="column"></div>
+                    <img src="images/graphics4.png" alt="Up to forty percent off">
+                </div>
+                <!--<p style>Sale</p>
+                <p>Hot Sellers</p>
+                <p>Up to 40% off</p>-->
             </div>
 
             <div>
