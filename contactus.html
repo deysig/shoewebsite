@@ -27,6 +27,17 @@
 
   gtag('config', 'G-15Q459WDV2');
 </script>
+
+<style>
+    fieldset {
+        border: 10px solid black;
+    }
+
+</style>
+
+
+
+
     </head>
     <body>
         <header>
@@ -44,25 +55,53 @@
             </nav><br>
         </header>
         <main>
-            <h1 class="contact">Contact Us</h1>
-            <h2 class="help">How can we help?</h2>
-            <section>
-            <h3>
-                <ul>
-                    <li id="name">Name:</li>
-                    <li id="email">Email:</li>
-                    <li id="number">Phone Number:</li>
-                    <li id="question">Question:</li>
-                    <li id="order">Order Number:</li>
-                    <li id="message">Message:</li>
-                    <li id="submit">Submit</li>
-                </ul>
-            </h3>
-        </section>
-            <section>
-                <h4>Company email: shoeoutlet@icloud.com</h4>
-                <h4>Company number: 576-375-9467</h4>
+            <form>
+                <fieldset>
+                <h1 class="contact">Contact Us</h1>
+                <h2 class="help">How can we help?</h2>
+                <section>
+                <h3>
+                    <ul>
+                        <!--<li id="name">Name:</li>-->
+                        <label for="first">First Name:</label>
+                        <input type="text" placeholder="firstname" name="first" id="first"><br>
+
+                        <label for="last">Last Name:</label>
+                        <input type="text" placeholder="lastname" name="last" id="last"><br>
+
+                        <!--<li id="email">Email:</li>-->
+                        <label for="email">Email:</label>
+                        <input type="email" placeholder="name@domain.com" name="email" id="email"><br>
+
+                        <!--<li id="number">Phone Number:</li>-->
+                        <label for="number">Phone Number:</label>
+                        <input type="tel" placeholder="((###) ###-####)" name="number" id="number"><br>
+
+                        <!--<li id="order">Order Number:</li>-->
+                        <label for="ordernumber">Order Number:</label>
+                        <input type="text" max="10" placeholder="ordernumber" name="ordernumber" id="ordernumber"><br>
+
+                        <!--<li id="question">Question:</li>          <input type="text" name="question" id="question">-->
+                        <label for="number">Question:</label>
+                            <select name="question">
+                                <option value="confirmation">I never got the order confirmation</option>
+                                <option value="Where is my package?">Where is my package?</option>
+                                <option value="bill">I got charged the wrong amount</option>
+                                <option value="account">How do I create an account?</option>
+                                <option value="other">Other</option>
+                            </select>
+                        
+                        <li id="message">Message:</li>
+                        <li id="submit">Submit</li>
+                    </ul>
+                </h3>
             </section>
+        </fieldset>
+                <section>
+                    <h4>Company email: shoeoutlet@icloud.com</h4>
+                    <h4>Company number: 576-375-9467</h4>
+                </section>
+        </form>
         </main>
         <footer>
             Deysi Garcia-Valdez &copy;

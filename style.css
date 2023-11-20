@@ -91,12 +91,12 @@ nav a {
     color: white;
     font-size: 26px;
 }
-
+/*when you hover over the nav bar thw background color will turn black*/
 a:hover {
     background-color: black;
     color: #D7CEC7;
 }
-
+/*making the search button the the top right*/
 .search {
     float: right;
     width: 13%;
@@ -108,6 +108,7 @@ a:hover {
     from{opacity: 1.0;}
     to{opacity: 0.0;}
 }
+/*making the main pictire on the home page blink*/
 .blink {
     text-decoration: blink;
     -webkit-animation-name: blinker;
