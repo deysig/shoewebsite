@@ -98,12 +98,12 @@ a:hover {
     color: #D7CEC7;
 }
 /*making the search button the the top right*/
-.search {
+/*.search {
     float: right;
     width: 13%;
     padding: 7px;
     font-size: 17px;
-}
+}*/
 /*making the h2 image blink for when users go to website it will automatically blink*/
 @-webkit-keyframes blinker{
     from{opacity: 1.0;}
