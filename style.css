@@ -30,9 +30,10 @@ header img {
 and it's going to help me know that it's separated */
 footer {
     padding: 15px;
-    border: 5px solid black;
+    /*border: 5px solid black;*/
     color: black;
         font-size: 20px;
+        border: 8px solid black;
 }
 /*underline the "Women's Shoes"*/
 .side {

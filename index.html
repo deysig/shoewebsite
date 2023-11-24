@@ -26,10 +26,12 @@
     main div h2 {
         /*margin: 100px 100px 150px;*/
         margin-left: 30px;
-        margin-right: 30px;
+        margin-right: 20px;
         margin-top: 20px;
         margin-bottom: 30px;
-        padding: 100px 100px 100px 100px;
+        padding: 100px 100px 100px 850px;
+        font-size: 40px;
+        color: rgb(49, 18, 18);
         background-color: white;
     }
     main div h2 {
@@ -42,7 +44,7 @@
     }
     .category {
         background-color: rgb(49, 18, 18);
-        padding: 50px;
+        padding: 15px;
         color: white;
         text-align: center;
     }
@@ -53,13 +55,56 @@
         float: left;
         width: 33.33%;
         padding: 10px;
+        margin-top: 10px;
+        padding-left: 60px;
+    }
+    .column2 {
+        padding: 12px;
         margin-top: 50px;
+        margin-right: 20px;
     }
     .row::after {
         content: "";
         clear: both;
         display: table;
     }
+    .scdrow::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .scdcol {
+        float: left;
+        width: 25%;
+        padding: 10px;
+        margin-top: 10px;
+        padding-left: 60px;
+    }
+   /*#running{
+        padding: 0px 0px 0px 40px;
+    }
+    #run {
+        font-size: 20px;
+        margin-top: 5px;
+        font-weight: bold;
+        padding: 0px 0px 0px 90px;
+    }
+    #boots {
+        padding: 60px 350px 40px 0px;
+    }
+    #boots2{
+        padding: 2px 30px 20px 430px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    #sneakers{
+        padding: 39px 120px 100px 560px;
+        margin-top: -50px;
+    }
+    #sneak{
+
+    }*/
 
 </style>
 
@@ -91,7 +136,7 @@
                 <div class="column">
                     <img src="images/graphics3.png" alt="Hot sellers"><br>
                 </div>
-                <div class="column"></div>
+                <div class="column2"></div>
                     <img src="images/graphics4.png" alt="Up to forty percent off">
                 </div>
                 <!--<p style>Sale</p>
@@ -99,26 +144,44 @@
                 <p>Up to 40% off</p>-->
             </div>
 
-            <h4>Social Media Share</h4>
-            <div class="social-sharing">
-                <button id="share-facebook">Share on Facebook</button>
-                <button id="share-twitter">Share on Twitter</button>
+            <h2 class="category">Shop by Category</h2>
+            <div class="scdrow">
+                <div class="scdcol">
+                    <img src="images/runningshoespic.png" alt="running shoes">
+                    <p>RUNNING SHOES</p>
+                </div> 
+                <div class="scdcol">
+                    <img src="images/bootspic.png" alt="boots">
+                    <p>BOOTS</p>
+                </div>
+                <div class="scdcol">
+                    <img src="images/sneakerspic.png" alt="sneakers">
+                    <p>SNEAKERS</p>
+                </div>
+                <div class="scdcol">
+                    <img src="images/sandalspic.png" alt="sandals">
+                    <p>SANDALS</p>
+                </div>
             </div>
 
-            <div>
+
+            <!--<div>
                 <h2 class="category">Shop by Category</h2>
                 <ul>
-                    <li id="running">Running Shoes</li><img src="images/runningshoespic.png" alt="running shoes">
-                    <li id="boots">Boots</li><img src="images/bootspic.png" alt="boots">
-                    <li id="sneakers">Sneakers</li><img src="images/sneakerspic.png" alt="sneakers">
-                    <li id="sandals">Sandals</li><img src="images/sandalspic.png" alt="sandals">
+                    <li id="running"></li><img src="images/runningshoespic.png" alt="running shoes">
+                        <p id="run">RUNNING SHOES</p>
+                    <li id="boots"></li><img src="images/bootspic.png" alt="boots">
+                        <p id="boots2">BOOTS</p>
+                    <li id="sneakers"></li><img src="images/sneakerspic.png" alt="sneakers">
+                        <p id="sneak">SNEAKERS</p>
+                    <li id="sandals"></li><img src="images/sandalspic.png" alt="sandals">
+                        <p id="sand">SANDALS</p>
                 </ul>
-            </div>
+            </div>-->
 
         </main>
         <footer class="footer">
             Deysi Garcia-Valdez &copy;
         </footer>
-        <script src="script.js"></script>
     </body>
 </html>

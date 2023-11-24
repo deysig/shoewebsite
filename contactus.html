@@ -12,11 +12,6 @@
         <meta name="author" content="Deysi Garcia-Valdez">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <style>
-
-
-
-        </style>
 
         <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-15Q459WDV2"></script>
@@ -30,7 +25,7 @@
 
 <style>
     fieldset {
-        border: 10px solid black;
+        border: 8px solid black;
     }
 
 </style>
@@ -55,7 +50,7 @@
             </nav><br>
         </header>
         <main>
-            <form>
+            <form action="action_page.php">
                 <fieldset>
                 <h1 class="contact">Contact Us</h1>
                 <h2 class="help">How can we help?</h2>
@@ -89,20 +84,25 @@
                                 <option value="bill">I got charged the wrong amount</option>
                                 <option value="account">How do I create an account?</option>
                                 <option value="other">Other</option>
-                            </select>
+                            </select><br>
                         
-                        <li id="message">Message:</li>
-                        <li id="submit">Submit</li>
+                        <li id="message">Message:</li><br>
+                        <textarea rows="4" cols="50" name="comment" placeholder="Enter messeage here"></textarea>
+
+                        <!--<li id="submit">Submit</li>-->
+                        <input type="submit" value="Submit">
                     </ul>
                 </h3>
             </section>
         </fieldset>
-                <section>
-                    <h4>Company email: shoeoutlet@icloud.com</h4>
-                    <h4>Company number: 576-375-9467</h4>
-                </section>
-        </form>
-        </main>
+        </form><br>
+        <section>
+            <fieldset>
+                <h4>Company email: shoeoutlet@icloud.com</h4>
+                <h4>Company number: 576-375-9467</h4>
+            </fieldset>
+        </section>
+        </main><br>
         <footer>
             Deysi Garcia-Valdez &copy;
         </footer>
