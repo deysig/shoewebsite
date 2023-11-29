@@ -20,6 +20,48 @@
 
   gtag('config', 'G-15Q459WDV2');
 </script>
+
+    <style>
+        .container {
+            display: flex;
+        }
+        .sidebar {
+            /*width: 140px;
+            position: relative;
+            z-index: 1;
+            left: -4px;
+            background: #D7CEC7;
+            border: 3px solid rgb(49, 18, 18);
+            overflow-x: hidden;*/
+            width: 12%; /* Adjust the width of the sidebar as needed */
+            background-color: #D7CEC7; /* Sidebar background color */
+            padding: 20px;
+            box-sizing: border-box;
+            border: 5px solid rgb(49, 18, 18);
+        
+        }
+        .sidebar li {
+            /*padding: 6px 8px 6px 16px;*/
+            text-align: 20px;
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(49, 18, 18);
+            display: block;
+        }
+        .pictures {
+            display: flex;
+            justify-content: space-between; 
+            max-width: 1000px; 
+            margin: 90px auto;   
+           /* flex-grow: 1;
+            box-sizing: border-box;*/
+            
+        }
+        
+       
+
+
+    </style>
     </head>
     <body>
         <header>
@@ -38,7 +80,8 @@
 
         </header>
         <main>
-            <aside>
+        <div class="container">
+            <aside class="sidebar">
                 <h4 class="side">Women's Shoes</h4>
                 <h5>1-6 of 5,000 products</h5>
                 <ul>
@@ -53,12 +96,16 @@
             <div class="pictures">
                 <img src="images/wpgraphics1.png" alt="Adidas Womens Ultrabounce Running Shoes $79.99" height="250"><br>
                 <img src="images/wpgraphics2.png" alt="Birkenstock Arizona Sandal $109.99" width="200" height="250"><br>
+            </div>
+            <div>
                 <img src="images/wpgraphics3.png" alt="Reebok womens court sneaker $75.99" width="200" height="250"><br>
                 <img src="images/wpgraphics4.png" alt="New balance womens 237 retro sneaker $79.99" width="200" height="250"><br>
+            </div>
+            <div>
                 <img src="images/wpgraphics5.png" alt="Vionic womens jaime platform sandal" width="200" height="250"><br>
                 <img src="images/wpgraphics6.png" alt="Ugg womens tasman slippers" width="200" height="250">
             </div>
-
+            </div>
         </main>
 
         <aside>
