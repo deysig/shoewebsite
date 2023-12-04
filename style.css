@@ -118,3 +118,16 @@ a:hover {
     -webkit-animation-timing-function: ease-in-out;
     -webkit-animation-direction: alternate;
 }
+/*fior the search widget on all pages*/
+.search-container {
+    display: flex;
+    align-items: center;
+  }
+  .search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 20px;
+    width: 200px;
+    margin-left: auto;
+  }
